@@ -7,7 +7,18 @@ Using Homography and YOLOv7 to detect Figure
 
 ## Usage
 
+You have to install the -requirements of YOLOv7.<br>
+This Link is the best to guide : https://www.youtube.com/watch?v=a9RJV5gI2VA<br>
+
+If you get all of packages or requirements of YOLOv7, You need to get your train pt file. Roboflow sites may be the one way to get pt file. Find some annotation sites and labeling your train data. All done, move your pt file into folder(directory)
+
 Run detect.py
+
+You can click four times to make rectangle and if you push enter key of keyboard you will get the Homography of source image(frame).
+
+Run catch.py
+
+IF you install pydobot packages, then make sure your port available by checking the "port = available_ports[1].device". If you have a many USB, may be you have to change the numeber of available_ports (defaults : 0 to 1, 2, 3... your USB linked). Now you can see the frame when we got in detect.py and click the points and the dobot will move. (But I sayed, I'm still developing and caculating of this process, so you have to check it)
 
 ## Pydobot
 
