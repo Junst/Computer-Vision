@@ -15,7 +15,7 @@ from utils.general import check_img_size, check_requirements, check_imshow, non_
 from utils.plots import plot_one_box, distance
 from utils.torch_utils import select_device, load_classifier, time_synchronized, TracedModel
 from utils.custom import mouse_handler
-from Homography_exercise import get_homography_matrix
+from Homography_Pratice.Homography_exercise import get_homography_matrix
 
 def detect(save_img=False):
     source, weights, view_img, save_txt, imgsz, homography, trace = opt.source, opt.weights, opt.view_img, opt.save_txt, opt.img_size, opt.homography, not opt.no_trace
@@ -177,7 +177,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--weights', nargs='+', type=str, default='best.pt', help='model.pt path(s)') # default='yolov7.pt'
     parser.add_argument('--source', type=str, default="4", help='source')  # file/folder, 0 for webcam #'inference/images'
-    parser.add_argument('--img-size', type=int, default=640, help='inference size (pixels)')
+    parser.add_argument('--img-size', type=int, default=1280, help='inference size (pixels)')
     parser.add_argument('--conf-thres', type=float, default=0.25, help='object confidence threshold')
     parser.add_argument('--iou-thres', type=float, default=0.45, help='IOU threshold for NMS')
     parser.add_argument('--device', default='', help='cuda device, i.e. 0 or 0,1,2,3 or cpu')
