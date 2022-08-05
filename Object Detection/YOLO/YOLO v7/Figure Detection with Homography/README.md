@@ -3,7 +3,14 @@
 Using Homography and YOLOv7 to detect Figure
 * I'm still developing this, This is not a complete Project
 
+
+## Figure Detection with Homography (3D Depth Camera version)
 ![alt text](https://github.com/Junst/Computer-Vision/blob/main/Object%20Detection/YOLO/YOLO%20v7/Figure%20Detection%20with%20Homography/Results/outputresults.png)
+
+## Figure Detection with Homography (Logitecg Camera Topview version)
+<img src="https://github.com/Junst/Computer-Vision/blob/main/Object%20Detection/YOLO/YOLO%20v7/Figure%20Detection%20with%20Homography/detect2results/cam%20capture.PNG" width="500" height="500"><img src="https://github.com/Junst/Computer-Vision/blob/main/Object%20Detection/YOLO/YOLO%20v7/Figure%20Detection%20with%20Homography/detect2results/pan%20capture.PNG" width="500" height="500">
+
+<img src="https://github.com/Junst/Computer-Vision/blob/main/Object%20Detection/YOLO/YOLO%20v7/Figure%20Detection%20with%20Homography/detect2results/plane%20capture.PNG" width="500" height="500"><img src="https://github.com/Junst/Computer-Vision/blob/main/Object%20Detection/YOLO/YOLO%20v7/Figure%20Detection%20with%20Homography/detect2results/merge%20capture.PNG" width="500" height="500">
 
 ## Usage
 
